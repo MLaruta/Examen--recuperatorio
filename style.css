@@ -2,38 +2,86 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:  Arial, Helvetica, sans-serif;
 }
 body{
-    background-color: #f4f5f7;
+    background-color: #f2f2f2;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    padding: 20px;
+    padding: 40px 20px;
 }
 h1{
     font-size: 1.2rem;
-    color: #666;
+    color: #555;
     margin-bottom: 15px;
 }
-.card{
+.container{
     background-color: #ffffff;
     width: 100%;
-    max-width: 450px;
-    padding: 30px;
+    max-width: 420px;
+    padding: 25px;
     border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 h2{
-    font-family: 1.5rem;
-    font-weight: #1a1a1a;
-    margin-bottom: 20px;
+    font-size: 1.4rem;
+    color: #222;
+    margin-bottom: 15px;
 }
-.form{
+.formulario{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-bottom: column;
+    margin-bottom: 15px;
+}
+#btn-agregar{
+    align-self: flex-start;
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#btn-agregar:hover{
+    background-color: #1b5e20;
+}
+.buscador {
+    margin-bottom: 15px;
+}
+#lista{
+    list-style: none;
+    margin-bottom: 15px;
+}
+.mensaje-vacio{
+    color: #777;
+    font-size: 0.85rem;
+    text-align: center;
+    padding: 15px 0;
+}
+.contacto-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 6px;
+    background-color: #fafafa;
+}
+.contacto-info span{
+    display: block;
+}
+.contacto-nombre{
+    font-weight: bold;
+    color: #333;
+}
+.contacto-telefono{
+    font-size: 0.85rem;
+    color:#222;
+}
+.btn-eliminar{
+    background-color: #d32f2f;
+    
 }
